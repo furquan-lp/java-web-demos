@@ -20,10 +20,6 @@ public class WebSampleFX extends Application {
        primaryStage.setScene(scene);
        primaryStage.show();
 
-       browser.loadURL("http://www.google.com/");
-   }
-
-   public static void main(String[] args) {
-       launch(args);
+       jbrowser.loadURL("http://www.google.com/");
    }
 }
